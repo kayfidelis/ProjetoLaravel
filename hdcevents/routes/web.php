@@ -25,4 +25,4 @@ Route::get('/products', function () {
 
 Route::get('/product/{id}', function ($id) {
     return view('product', ['id' => $id]); 
-});
+}); 
